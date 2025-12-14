@@ -28,22 +28,22 @@
          let track_list = [
           {
                 name:"Want You Gone - GLaDOS",
-                path:"https://file.garden/aRY_eKC0BHrrKtoO/wantyougone.mp3"
+                path:"data/sounds/music/wantyougone.mp3"
             },
             
             {name:"Sleepy Eyes Again - The Quick Brown Fox ",
-                path:"https://file.garden/aRY_eKC0BHrrKtoO/sleepyeyesagain.mp3"
+                path:"data/sounds/music/sleepyeyesagain.mp3"
               
             },
           
              { name:"Across the Sea - Weezer",
-                path:"https://file.garden/aRY_eKC0BHrrKtoO/Across%20The%20Sea.mp3", 
+                path:"data/sounds/music/acrossthesea.mp3", 
                
             },
             
              {
                 name:"BIPP - SOPHIE",
-                path:"https://file.garden/aRY_eKC0BHrrKtoO/SOPHIE%20-%20BIPP%20(Official%20Stream).mp3"
+                path:"data/sounds/music/bipp.mp3"
             },
             
         ];
@@ -167,3 +167,4 @@
 //
 
 //
+
