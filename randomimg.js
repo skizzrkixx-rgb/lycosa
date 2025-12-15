@@ -1,6 +1,5 @@
-window.onload = choosePic;
-
-var myPix = new Array(
+// define your images here
+var images = [
 "randomimg/alc.jpg",
      "randomimg/beautifulsoul.jpg",
      "randomimg/digitalfootprint.jpg",
@@ -10,12 +9,12 @@ var myPix = new Array(
      "randomimg/minesweeperhell.jpg",
      "randomimg/situation.jpg",
      "randomimg/webfunny.jpg"
-);
+];
 
-function choosePic() {
-     var randomNum = Math.floor(Math.random() * myPix.length);
-     document.getElementById("myPicture").src = myPix[randomNum];
-     setInterval(choosePic, 86400000); //- set time 2 generate (1 sec = 1000) (86400000 seconds = day)
-}
-
- // 
+// this chooses a random number from all available image indices
+var randomImage = images[Math.floor(Math.random() * images.length)];
+console.log(randomImage);
+// make the URL into a proper image tag
+var image = "<img src='" + randomImage + "'>";
+// append to the div
+document.getElementById("mypicture").innerHTML = image;
