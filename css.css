@@ -3,7 +3,7 @@ body, html {
 }
 
 @font-face{
-src: url('data/font/Perfect DOS VGA 437.ttf'); 
+src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
  font-family: 'vgados';
 }
 
