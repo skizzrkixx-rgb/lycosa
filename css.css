@@ -1,9 +1,9 @@
 body, html {
-    cursor: url(data/image/random/cursor1.gif), pointer;
+    cursor: url('data/image/random/cursor1.gif'), pointer;
 }
 
 @font-face{
-src: url(data/font/vgados.ttf); 
+src: url('data/font/vgados.ttf'); 
  font-family: 'vgados';
 }
 
