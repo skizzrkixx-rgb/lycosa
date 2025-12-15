@@ -1,5 +1,5 @@
 body, html {
-    cursor: url(cursor1.gif), pointer;
+    cursor: url(data/image/random/cursor1.gif), pointer;
 }
 
 @font-face{
