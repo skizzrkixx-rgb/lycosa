@@ -34,7 +34,7 @@ let postsArray = [
 //[ "posts/2020-11-10-Special-Characters-Example.html", encodeURI( 'Spéci@l "Character\'s" Examp|e' ) ],
 //[ "posts/2020-11-10-My-Third-Post-Example.html" ],
 //[ "posts/2020-11-10-My-Second-Post-Example.html" ],
- [ "posts/2025-11-17-Sighhh.html" ], ["posts/2025-11-13-Across-the-Sea.html" ], [ "posts/2025-11-12-First-Entry.html" ], ];
+ [ "posts/2025-11-17-Sighhh.html" ], ["posts/2025-11-13-Across-the-Sea.html" ], [ "posts/2025-11-12-First-Entry.html" ], [ "posts/2025-12-15-Thing.html" ], ];
 
 
 
@@ -228,4 +228,5 @@ if (document.getElementById("footer")) {
 //The <title> tag content is what shows up on browser tabs
 if (document.title === "Blog Post") {
   document.title = currentPostTitle;
+
 }
