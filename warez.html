@@ -59,6 +59,16 @@ no longer produced. i am not responsible if any data is corrupt or missing.</pre
   </div>
 </div>
 </div>
+<s tyle>.static {
+  position:absolute;
+  background: white;
+}
+
+.static:hover {
+  opacity:0;
+}</style>
+
+
     
 <a href="https://github.com/skizzrkixx-rgb/lycosa/releases/download/iso3/TVphotoviewer.zip" class="dlink">Download ISO</a>
 
@@ -73,22 +83,8 @@ no longer produced. i am not responsible if any data is corrupt or missing.</pre
     </div>
   </div>
     <div class="window-body" style="font-size:1.2rem;">
-        <img id="winspin" src="data/images/random/winspinstatic.png" style="width:173px; height:171px;"/>
-
-<script>
-    $(function() {
-        $("#winspin").hover(
-            function() {
-                 function() {
-                $(this).attr("src", "data/images/random/winspin1.gif" "style", "width:173px; height:171px;");
-                
-            },
-              function() {
-                $(this).attr("src", "data/images/random/winspinstatic.png" "style", "width:173px; height:171px;");
-            }                   
-        );                  
-    });
-</script>
+        <img class="static" src="data/images/random/winspinstatic.png" style="width:173px; height:171px;"/>
+          <img class="active" src="data/images/random/winspin.gif" style="width:173px; height:171px;"/>
 
     <p><a href="https://github.com/skizzrkixx-rgb/lycosa/releases/download/iso1/winXPpro.zip" class="dlink">Download zipped ISO</a></p>
         <p>everyone knows windows xp, and this is just a ripped iso image from one of my physical discs. comes with no service pack, but is pro edition</p>
