@@ -26,9 +26,10 @@
         justify-content:center; 
            align-self:center;
            gap: 15px;
-@font-face{
-src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
  font-family: 'vgados';
 }
 
+@font-face{
+src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
+ font-family: 'vgados';
 }
