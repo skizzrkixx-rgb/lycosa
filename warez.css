@@ -17,7 +17,19 @@
 
    
     }
-    
+
+#warning{
+
+ display:flex;
+  align-items:center;
+           float: center;
+        justify-content:center; 
+           align-self:center;
+
+
+      
+}
+
 .windows4downloads{
 text-align:center;
  display:flex;
