@@ -30,6 +30,21 @@
       
 }
 
+#below{
+
+ position:absolute;     
+ display:flex;
+  align-items:center;
+           float: center;
+        justify-content:center; 
+           align-self:center;
+margin-bottom:400px;
+
+      
+}
+
+
+
 .windows4downloads{
 text-align:center;
  display:flex;
