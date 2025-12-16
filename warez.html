@@ -73,14 +73,15 @@ no longer produced. i am not responsible if any data is corrupt or missing.</pre
     </div>
   </div>
     <div class="window-body" style="font-size:1.2rem;">
-        <img id="winspim" src="data/images/random/winspin1.gif" style="width:173px; height:171px;"/>
+        <img id="winspim" src="data/images/random/winspinstatic.png" style="width:173px; height:171px;"/>
 
 <script>
     $(function() {
         $("#winspin").hover(
             function() {
-                $(this).attr("src", "data/images/random/winspinstatic.png" "style", "width:173px; height:171px;");
-            }                         
+                 function() {
+                $(this).attr("src", "data/images/random/winspin1.gif" "style", "width:173px; height:171px;");
+            },
         );                  
     });
 </script>
