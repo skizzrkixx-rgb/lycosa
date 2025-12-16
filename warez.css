@@ -1,0 +1,20 @@
+
+      body{
+      
+      background-image: url("data/images/random/1000.png");
+    background-size:cover;
+    
+      
+    }
+    
+    #container{
+      display:flex;
+  align-items:center;
+           float: center;
+        justify-content:center; 
+           align-self:center;
+           gap: 15px;
+
+   
+    }
+    
