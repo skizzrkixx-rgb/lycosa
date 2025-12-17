@@ -204,7 +204,7 @@ margin-top:15px;
   display:flex;
       justify-content:center;
        align-items:center;
-      float: bottom;
+      float: top;
       text-align:center;
      align-self:center;
   
@@ -228,4 +228,5 @@ margin-top:15px;
  
 
     
+
 
