@@ -156,10 +156,10 @@
     
     #container{
       display:flex;
-  align-items:center;
-           float: center;
-        justify-content:center; 
-           align-self:center;
+  align-items:left;
+           float: left;
+        justify-content:left; 
+           align-self:left;
            gap: 15px;
 
    
@@ -228,6 +228,7 @@ margin-top:15px;
  
 
     
+
 
 
 
