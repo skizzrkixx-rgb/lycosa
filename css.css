@@ -1,5 +1,7 @@
 body, html {
     cursor: url('data/images/random/cursor1.gif'), pointer;
+       background-image: url("https://msx.horse/data/bg_msx.png");
+    background-size:stretch;
 }
 
 @font-face{
