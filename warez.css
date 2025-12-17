@@ -32,25 +32,26 @@
 
 #below{
 
- position:absolute;     
+position:absolute;     
  display:flex;
   align-items:center;
            float: center;
         justify-content:center; 
            align-self:center;
       text-align:center;
-margin-bottom:-05px;
+margin-bottom:-15px;
 left:50%;
       right:50%;
  font-family: 'vgados';
             font-size:1.2rem;
+    
     
 }
 
 
 
 .windows4downloads{
-           gap: 15px;
+            gap: 15px;
  font-family: 'vgados';
       font-size:1.2rem;
          display:flex;
