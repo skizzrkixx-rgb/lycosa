@@ -14,7 +14,9 @@ input:checked ~ ul.cool {max-height:100%; margin:4px 0px 4px 0px;}
 input {display:none;}
 label {cursor:crosshair; user-select:none;}
 label:hover {color:#0090e0;}
-
+li {margin: 0; padding: 0; list-style-type: none;}
+ul {margin:6px 0px 3px 0px; padding-left: 30px;}
+ul li {margin:0px; font-size:12px;}
 
 .sidenav a:hover {color:#fff; background-color:#282828;}
 .sidenav a:active {color:#0090e0;}
