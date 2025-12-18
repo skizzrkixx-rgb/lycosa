@@ -9,6 +9,13 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
  font-family: 'vgados';
 }
 
+.cool {margin:0px; max-height:0px; overflow:hidden;}
+input:checked ~ ul.cool {max-height:100%; margin:4px 0px 4px 0px;}
+input {display:none;}
+label {cursor:crosshair; user-select:none;}
+label:hover {color:#0090e0;}
+
+
 .sidenav a:hover {color:#fff; background-color:#282828;}
 .sidenav a:active {color:#0090e0;}
 .sidenav>hr {border-style:dotted; border-width:1px 0 0 0; margin:8px 0 8px 0;}
