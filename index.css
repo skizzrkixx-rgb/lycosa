@@ -129,6 +129,7 @@
         /*blue musicplayer end*/
 
 
+
 .sidenav a:hover {color:#fff; background-color:#282828;}
 .sidenav a:active {color:#0090e0;}
 .sidenav>hr {border-style:dotted; border-width:1px 0 0 0; margin:8px 0 8px 0;}
@@ -137,6 +138,7 @@ a:link {color:#0090e0;}
 a:visited {color:#0090e0;}
 a:hover {color:#181818;	border: 1px solid transparent; border-image: url("data/images/random/ants.gif") 1 repeat; background-color:e6e6e6;}
 a:active {color:#fff;}
+}
 
    #gladosimage{
      
@@ -202,6 +204,7 @@ a:active {color:#fff;}
  
 
     
+
 
 
 
