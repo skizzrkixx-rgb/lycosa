@@ -166,38 +166,6 @@
     }
     
     
-    .stamps{
-      
-           display:inline-block;
-      justify-content:center;
-       align-items:center;
-      float: center;
-      text-align:center;
-     align-self:center;
-white-space: nowrap;
-flex-shrink: 0;
-overflow: hidden;
-    
-    }
-    
-
-
-    
-    .blinkies{
-      
-           display:flex;
-      justify-content:center;
-       align-items:center;
-      float: bottom;
-      text-align:center;
-     align-self:center;
-white-space: nowrap;
-flex-shrink: 0;
-overflow: hidden;
-margin-top:15px;
-
-
-    }
 
 #mainblock{
   
@@ -214,7 +182,7 @@ margin-top:15px;
     
   #divider{
     
-    
+    position:absolute;
      display:flex;
       justify-content:center;
        align-items:center;
@@ -228,6 +196,7 @@ margin-top:15px;
  
 
     
+
 
 
 
