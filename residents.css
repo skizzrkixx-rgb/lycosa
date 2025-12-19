@@ -28,7 +28,7 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
 
 
    
-     :root {
+     .card {
   --pointer-x:50%;
   --pointer-y:50%;
   --card-scale:1;
