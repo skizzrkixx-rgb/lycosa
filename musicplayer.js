@@ -1,7 +1,5 @@
-
-//music player
-
-<!-- player by adilene.net-->  
+  <!-- player by adilene.net-->  
+    <script>
         // initiate variables
         let track_name = document.querySelector(".songtitle");
  
@@ -27,7 +25,7 @@
         // CATBOX.MOE IS RECOMMENDED FOR UPLOADING MP3 FILES
          let track_list = [
           {
-                name:"Want You Gone - GLaDOS",
+                 name:"Want You Gone - GLaDOS",
                 path:"data/sounds/music/wantyougone.mp3"
             },
             
@@ -36,16 +34,15 @@
               
             },
           
-             { name:"Across the Sea - Weezer",
-                path:"data/sounds/music/acrossthesea.mp3", 
+             {  name:"Across the Sea - Weezer",
+                path:"data/sounds/music/acrossthesea.mp3",
                
             },
-            
-             {
-                name:"BIPP - SOPHIE",
-                path:"data/sounds/music/bipp.mp3"
-            },
-            
+
+                 { name:"BIPP - SOPHIE",
+                path:"data/sounds/music/bipp.mp3"}
+
+                 
         ];
         //
         //
@@ -164,7 +161,4 @@
         
         // load the first track in the tracklist
         loadTrack(track_index);
-//
-
-//
 
