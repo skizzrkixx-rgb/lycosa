@@ -26,6 +26,59 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
     font-size:1.2rem;
 }
 
+.card {
+
+  /* place the card on a new transform layer and
+  make sure it has hardward acceleration... we gun'need that! */
+  -webkit-transform: translate3d(0px, 0px, 0.01px);
+  transform: translate3d(0px, 0px, 0.01px);
+  pointer-events: none;
+  
+  /* make sure the card is above others if it's scaled up */
+  z-index: calc(var(--card-scale) * 2);
+  
+  /* every little helps! */
+  will-change: transform, visibility, z-index;
+
+  /* this prevents major problems in firefox, but also causes a bit of
+  clipping as the card animates to/from active state. worth it. */
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card,
+.card * {
+  /* outline is a little trick to anti-alias */
+  outline: 1px solid transparent;
+}
+
+.card:not( .interactive ) .card__translater,
+.card:not( .interactive ) .card__rotator,
+.card:not( .interactive ) .card__shine,
+.card:not( .interactive ) .card__glare {
+
+  /* if this card is not in a framework, we can add simply
+    hover effects when it's not "interactive" */
+  transition: all 0.3s ease;
+
+}
+.card:not( .interactive ):hover {
+  
+  --pointer-x: 25% !important;
+  --pointer-y: 10% !important;
+  --card-scale: 1.1 !important;
+  --card-opacity: 1 !important;
+  --translate-x: 0px !important;
+  --translate-y: -10px !important;
+  --rotate-x: 7deg !important;
+  --rotate-y: -19deg !important;
+  --background-x: 44% !important;
+  --background-y: 36% !important;
+  --pointer-from-center: .9 !important;
+  --pointer-from-top: .11 !important;
+  --pointer-from-left: .25 !important;
+  
+}
 
    
      .card {
