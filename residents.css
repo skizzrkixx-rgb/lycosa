@@ -32,19 +32,6 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
 }
 
 
-@keyframes stamp {
-	0% {background-position:1000px 500px;}
-    100% {background-position:-1000px 500px;}
-}
-
-.main input{
-    display:none;
-}
-
-:root {
-    --idsize: calc (100vw * 0.1);
-}
-
 .imgwrap {
     position:fixed;
     top:calc(50% - 200px);
@@ -57,7 +44,7 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
     pointer-events:none;
 }
 
-#card1:checked ~ .imgwrap {
+#empyshine:checked ~ .imgwrap {
     position:fixed;
     top:calc(50% - 200px);
     left:calc(50% - 350px);
@@ -106,7 +93,7 @@ element {
 label {
   cursor: crosshair;
 }
-#card:checked ~ .imgwrap {
+#empyshine:checked ~ .imgwrap {
   pointer-events: auto;
 }
 
