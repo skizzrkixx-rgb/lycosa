@@ -31,4 +31,14 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
 #empyfloat{   animation-name: throb3b;
   animation-duration: 9s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;}
+  animation-timing-function: ease-in-out;
+          }
+0% {
+  transform: rotate(0deg) scale(1);
+}
+50% {
+  transform: rotate(2deg) scale(1.05);
+}
+100% {
+  transform: rotate(0deg) scale(1);
+}
