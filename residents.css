@@ -57,7 +57,8 @@ element {
 	mix-blend-mode: screen;
   background-size: 10000px 6000px;
   pointer-events: none;
-	position:absolute;
+	 position: relative; 
+ z-index: 1; 
 }
 .imgwrap {
   cursor: zoom-out;
