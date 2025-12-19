@@ -64,7 +64,6 @@ element {
 	mix-blend-mode: screen;
   background-size: 10000px 6000px;
   pointer-events: none;
-	 position: absolute;
     left: 0;
     top: 0;
  z-index: 1; 
