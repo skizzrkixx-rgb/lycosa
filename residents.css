@@ -26,6 +26,60 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
     font-size:1.2rem;
 }
 
+@keyframes holo {
+	0% {background-position:10000px 4500px;}
+    100% {background-position:-10000px 4500px;}
+}
+
+
+@keyframes stamp {
+	0% {background-position:1000px 500px;}
+    100% {background-position:-1000px 500px;}
+}
+
+.main input{
+    display:none;
+}
+
+:root {
+    --idsize: calc (100vw * 0.1);
+}
+
+.imgwrap {
+    position:fixed;
+    top:calc(50% - 200px);
+    left:calc(50% - 350px);
+    transform: perspective(20em) rotateX(270deg) rotateY(20deg) scale(0.15);
+    transition: 0.5s ease-in-out;
+    z-index:30;
+    text-align:left;
+    opacity:0;
+    pointer-events:none;
+}
+
+#card1:checked ~ .imgwrap {
+    position:fixed;
+    top:calc(50% - 200px);
+    left:calc(50% - 350px);
+    transform: perspective(50em) rotateX(0deg) rotateY(0deg) scale(1.2);
+    transition: 0.75s cubic-bezier(0.2,1.05,0.75,1.05);
+    opacity:100;
+    pointer-events: auto
+}
+
+
+
+   .lowspec {
+   display:none;
+   }
+}
+
+.main i {
+    color:#888;
+}
+
+
+
 element {
 }
 .security {
