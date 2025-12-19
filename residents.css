@@ -83,9 +83,11 @@ label {
   background-position: -10000px 4500px;
 }
 
-#empyshine{
+#empyshine img{
  z-index: 1; 
-
+  object-fit: cover;
+  -webkit-mask-size: cover;
+  mask-size: cover;
 
 
 	
