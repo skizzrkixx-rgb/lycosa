@@ -72,7 +72,7 @@ label {
 
 }
 :root {
-  --idsize: calc (100vw * 0.1);
+  --empyshinesize: calc (100vw * 0.1);
 }
 0% {
   background-position: 10000px 4500px;
