@@ -180,8 +180,8 @@ a:active {color:#fff;}
 }
     
   #divider{
-    
-    position:absolute;
+
+    position:relative;
      display:inline-block;
       justify-content:center;
        align-items:center;
@@ -195,6 +195,7 @@ a:active {color:#fff;}
  
 
     
+
 
 
 
