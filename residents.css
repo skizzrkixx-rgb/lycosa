@@ -27,19 +27,26 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
 }
 
 
+   
+     
 
-#empyfloat{   animation-name: throb3b;
-  animation-duration: 9s;
+element {
+
+#empyfloat {
+  animation-name: throb2;
+  animation-duration: 2.5s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-   0% {
-  transform: rotate(0deg) scale(1);
+}
+#main {
+  text-align: center;
+}
+0% {
+  transform: rotate(-12deg) translate(0px, 0px) scale(0.95);
 }
 50% {
-  transform: rotate(2deg) scale(1.05);
+  transform: rotate(-12deg) translate(0px, 8px) scale(0.95);
 }
 100% {
-  transform: rotate(0deg) scale(1);
+  transform: rotate(-12deg) translate(0px, 0px) scale(0.95);
 }
-     
-          }
