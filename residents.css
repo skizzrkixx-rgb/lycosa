@@ -26,17 +26,18 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
     font-size:1.2rem;
 }
 
-@keyframes holo {
-	0% {background-position:10000px 4500px;}
-    100% {background-position:-10000px 4500px;}
-}
-
 #empyshine{
  z-index: 2; 
 
 
 
 	
+}
+
+
+@keyframes holo {
+	0% {background-position:10000px 4500px;}
+    100% {background-position:-10000px 4500px;}
 }
 
    .lowspec {
