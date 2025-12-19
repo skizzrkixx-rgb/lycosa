@@ -7,7 +7,7 @@
           width:100%;
           left:0;
           top:0;
-          position:fixed;
+          position:relative;
           margin-bottom:20px;  
           display:flex;
           background: linear-gradient(180deg,#77BBFF 0%,  #f0f5ff  45%, #3885d2 47%, #59a3ec 60%, #77BBFF 100%);
