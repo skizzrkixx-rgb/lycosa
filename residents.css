@@ -25,3 +25,10 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
  font-family: 'vgados';
     font-size:1.2rem;
 }
+
+
+
+#empyfloat{   animation-name: throb3b;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;}
