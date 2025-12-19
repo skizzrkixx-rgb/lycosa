@@ -42,7 +42,7 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
     color:#888;
 }
 
-.empyshine:hover .overlay {
+.empyshine:hover .security {
   opacity: 1;
 }
 element {
