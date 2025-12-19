@@ -62,7 +62,7 @@ element {
   pointer-events: none;
     left: 0;
     top: 0;
- z-index: 2; 
+ z-index: 1; 
 
 }
 .imgwrap {
@@ -87,7 +87,7 @@ label {
 }
 
 #empyshine img{
- z-index: 1; 
+ z-index: 2; 
   object-fit: cover;
   -webkit-mask-size: cover;
   mask-size: cover;
