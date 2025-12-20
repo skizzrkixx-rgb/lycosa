@@ -55,7 +55,6 @@ element {
     background-size: auto;
   animation: holo 26.34s linear infinite;
 	mix-blend-mode: screen;
-  background-size: 10000px 6000px;
   pointer-events: none;
     left: 0;
     top: 0;
@@ -76,6 +75,11 @@ label {
 :root {
   --empyshinesize: calc (100vw * 0.1);
 }
-
+0% {
+  background-position: 10000px 4500px;
+}
+100% {
+  background-position: -10000px 4500px;
+}
 
 
