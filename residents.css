@@ -28,7 +28,7 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
 
 img {
   max-width: 100%;
-  display: block;
+  display: flex;
 }
 
 @keyframes holo {
