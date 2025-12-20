@@ -40,7 +40,7 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
 
 element {
 }
-.security {
+.empyshine {
   mask-size: cover;
   -webkit-mask-size: cover;
   width: 400px;
