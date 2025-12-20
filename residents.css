@@ -26,7 +26,7 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
     font-size:1.2rem;
 }
 
-img {
+.empyshine img {
   max-width: 100%;
   display: flex;
 }
