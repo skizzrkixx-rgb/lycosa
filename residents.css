@@ -50,24 +50,17 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
   background-size: 10000px 6000px;
   position: absolute;
   z-index: 10;
-  top: 2px;
-  left: 2px;
+  top: 0;
+  left: 0;
   mix-blend-mode: screen;
   pointer-events: none;
 }
 
-.main i {
-    color:#888;
-}
-
-
 .imgwrap {
   cursor: zoom-out;
 }
-label {
-  cursor: crosshair;
-}
-#empyshine:checked ~ .imgwrap {
+
+.empyshine:checked ~ .imgwrap {
   pointer-events: auto;
 }
 
