@@ -38,8 +38,7 @@ src: url('data/font/Perfect DOS VGA 437.ttf') format("truetype");
     100% {background-position:-10000px 4500px;}
 }
 
-element {
-}
+
 .security {
   mask-size: cover;
   -webkit-mask-size: cover;
