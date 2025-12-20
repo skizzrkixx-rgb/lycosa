@@ -43,6 +43,8 @@ height: 100%;
 
 
 .security {
+	-webkit-mask-image: url("data/images/random/Gold Minimalist Monument Logo.png");
+  mask-image: url("data/images/random/Gold Minimalist Monument Logo.png");
   mask-size: cover;
   -webkit-mask-size: cover;
   width: 400px;
