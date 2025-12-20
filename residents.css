@@ -59,7 +59,7 @@ element {
     left: 0;
     top: 0;
  z-index: 1; 
-
+  background-size: 10000px 6000px;
 }
 .imgwrap {
   cursor: zoom-out;
