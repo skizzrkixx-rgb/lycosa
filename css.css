@@ -29,6 +29,11 @@ li {margin: 0; padding: 0; list-style-type: none;}
 ul {margin:6px 0px 3px 0px; padding-left: 30px;}
 ul li {margin:0px; font-size:12px;}
 
+li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
 
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
