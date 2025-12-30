@@ -36,7 +36,25 @@
   <a href="/residents">\residents</a>
   <a href="/aboutme">\about</a>
         <a href="#">\tech</a>
-         
+         <script>
+let boxes = document.getElementsByClassName('box').length;
+
+function save() {	
+    for (let i = 1; i <= boxes; i++) {
+        var checkbox = document.getElementById(String(i));
+        localStorage.setItem("checkbox" + String(i), checkbox.checked);	
+    }
+}
+
+for (let i = 1; i <= boxes; i++) {
+    if (localStorage.length > 0) {
+        var checked = JSON.parse(localStorage.getItem("checkbox" + String(i)));
+        document.getElementById(String(i)).checked = checked;
+    }
+}
+
+window.addEventListener('change', save);
+</script>
 </div>
 <div class="main">
 
@@ -118,6 +136,7 @@ My name is Lala/Lycosa, and this is my web(site).
     </body>
 
 </html>
+
 
 
 
