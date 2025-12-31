@@ -1,10 +1,10 @@
  /* Remove default bullets */
-ul, .sidenav {
+ul, #sidenav {
   list-style-type: none;
 }
 
 /* Remove margins and padding from the parent ul */
-.sidenav {
+#sidenav {
   margin: 0;
   padding: 0;
 }
