@@ -31,7 +31,15 @@
   <a href="/residents">\residents</a>
   <a href="/aboutme">\about</a>
         <a href="#">\tech</a>
-    
+    <script>var toggler = document.getElementsByClassName("caret");
+var i;
+
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+} </script>
 </div>
 <div class="main">
 
@@ -113,6 +121,7 @@ My name is Lala/Lycosa, and this is my web(site).
     </body>
 
 </html>
+
 
 
 
