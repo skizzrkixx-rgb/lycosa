@@ -13,7 +13,6 @@ ul, #sidenav {
 .caret {
   cursor: crosshair;
   user-select: none; /* Prevent text selection */
-  padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 18px;
 font-family: 'vgados', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
