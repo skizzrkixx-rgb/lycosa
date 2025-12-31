@@ -107,6 +107,14 @@ font-family: 'vgados', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sa
   display: block;
 }
 
+#titlething {
+  text-decoration: none;
+  font-size: 18px;
+font-family: 'vgados', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff;
+  display: block;
+}
+
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
