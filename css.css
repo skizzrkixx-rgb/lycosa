@@ -3,7 +3,7 @@ ul, #sidenav {
   list-style-type: none;
 }
 
-.nested {margin:0px; max-height:0px; overflow:hidden;}
+.sidenav {margin:0px; max-height:0px; overflow:hidden;}
 input:checked ~ ul.cool {max-height:100%; margin:4px 0px 4px 0px;}
 input {display:none;}
 label {cursor:crosshair; user-select:none;}
