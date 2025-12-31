@@ -29,11 +29,6 @@ font-family: 'vgados', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sa
 margin-right: 6px;
 }
 
-/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
-.caret-down::before {
-  transform: rotate(90deg);
-}
-
 /* Hide the nested list */
 .nested {
   display: none;
