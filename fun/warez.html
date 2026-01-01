@@ -20,18 +20,58 @@
   
     
 <body>
-    <div class="sidenav">
-	       <a href="/warez">\warez</a>
-  <a href="lycosa's-web/index-blog">\blog</a>
-  <a href="#">\music</a>
-  <a href="https://lycosa.zip">\landing</a>
-  <a href="#">\graphics</a>
-  <a href="/residents">\residents</a>
-  <a href="/aboutme">\about</a>
-        <a href="#">\tech</a>
-         
+  <div class="sidenav">
+<div id="titlething">	 
+ navigation:
 </div>
+	 	  <hr>
+	   <ul id="sidenav">
+  <li><span class="caret">characters</span>
+	<ul class="nested">
+<li><a href="/characters/lycosa">\lala</a></li>		
+<li><a href="/characters/empy3">\empy3</a></li>
+<li><a href="/characters/kairo">\kairo</a></li>	
+	</ul>
+	  </ul>
+	 	  <hr>
+	   <ul id="sidenav">
+  <li><span class="caret">projects</span>
+	<ul class="nested">
+<li><a href="/projects/game">\game</a></li>
+	</ul>
+	  </ul>
+	  <hr>
+	 <ul id="sidenav">
+ <li><span class="caret">resources</span>
+	<ul class="nested">			
+<li><a href="#">\graphixx</a></li>
+<li><a href="#">\web</a></li>
+<li><a href="#">\musik</a></li>
+<li><a href="#">\design+art</a></li>		
+	</ul>
+	 </ul>
+	<hr>
+	 <ul id="sidenav">
+ <li><span class="caret">fun</span>
+	<ul class="nested">
+<li><a href="/fun/warez">\warez</a></li>
+<li><a href="#">\gamez</a></li>
+<li><a href="#">\artistz</a></li>
+<li><a href="#">\media</a></li>		
+	</ul>
+	 </ul>
+	<hr>	 
+  <ul id="sidenav">
+    <script>var toggler = document.getElementsByClassName("caret");
+var i;
 
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+	      this.classList.toggle("caret-down");
+  });
+} </script>
+</div>
     <div id="warning">
 
     <div class="window" style="width:800px;">
