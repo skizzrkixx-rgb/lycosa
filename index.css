@@ -13,10 +13,10 @@ a:active {color:#fff;}
      
      
    } 
-      body{
+      body, html{
       
       background-image: url("data/images/random/IMG_4292.png");
-    background-size:100%;
+    background-size: 100vw 100vh;
     
       
     }
@@ -63,6 +63,7 @@ a:active {color:#fff;}
  
 
     
+
 
 
 
