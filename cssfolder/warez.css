@@ -40,6 +40,15 @@ left:50%;
 }
 
 
+  
+    .still {
+  position:absolute;
+        background:#ece9d8;
+}
+
+.wee:hover {
+  opacity:0;
+}
 
 .windows4downloads{
             gap: 15px;
