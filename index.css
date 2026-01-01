@@ -1,10 +1,10 @@
 
 .sidenav a:hover {color:#fff; background-color:#282828;}
-.sidenav a:active {color:#005bff;}
+.sidenav a:active {color:#3664b6;}
 .sidenav>hr {border-style:dotted; border-width:1px 0 0 0; margin:8px 0 8px 0;}
 a {cursor:crosshair; border: 1px solid transparent; margin: 0px;}
-a:link {color:#005bff;}
-a:visited {color:#005bff;}
+a:link {color:#3664b6;}
+a:visited {color:#3664b6;}
 a:hover {color:#181818;	border: 1px solid transparent; border-image: url("data/images/random/ants.gif") 1 repeat; background-color:e6e6e6;}
 a:active {color:#fff;}
 }
@@ -63,6 +63,7 @@ a:active {color:#fff;}
  
 
     
+
 
 
 
