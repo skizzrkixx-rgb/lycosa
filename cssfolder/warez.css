@@ -49,12 +49,12 @@ left:50%;
 
 
   
-   img .static {
+   .static img {
   position:absolute;
         background:#ece9d8;
 }
 
-img .active:hover {
+.active img:hover {
   opacity:0;
 }
 
