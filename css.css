@@ -51,7 +51,7 @@ margin-right: 6px;
 body, html {
     cursor: url('data/images/random/cursor1.gif'), pointer;
        background-image: url("https://file.garden/aRY_eKC0BHrrKtoO/IMG_4290.png");
-    background-size:cover;
+    background-size:100%;
 }
 
 @font-face{
