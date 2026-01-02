@@ -20,6 +20,11 @@
  animation-play-state: running;
  animation-timeline: ;}
 
+@keyframes hoverhand {
+	0% {transform:translate(0px, 4px);}
+	50% {transform:translate(0px, -4px);}
+	100% {transform:translate(0px, 4px);}
+}
 
 @font-face {
   font-family: "bv";
