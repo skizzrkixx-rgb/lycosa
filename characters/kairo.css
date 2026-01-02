@@ -11,9 +11,14 @@
   src: url("data/font/Baskervville-Regular.ttf");
 }
 
+@font-face {
+  font-family: "din";
+  src: url("data/font/dinc.ttf");
+}
+
 #box{
  font-family: "bv";
- font-size:90px;
+ font-size:110px;
  text-align:center;
  color: white;
    font-weight: 900;
@@ -28,7 +33,7 @@
 }
 
 #box2{
- font-family: "bv";
+ font-family: "din";
  font-size:20px;
  text-align:center;
  color: white;
