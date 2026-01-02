@@ -19,10 +19,8 @@
  position:relative;
 float:center;
  align-items:center;
-  display:flex;
-        justify-content:center; 
-           align-self:center;
-           gap: 15px;
+  display:inline-block;
+    gap: 15px;
 
 }
 
