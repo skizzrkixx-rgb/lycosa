@@ -6,8 +6,8 @@
       
     }
 #kairoimg1{
- 
-  left:3%;
+ image-rendering: pixelated;
+  left:2%;
   position:relative;
  animation: hoverhand 3s ease-in-out infinite;
  animation-name: hoverhand;
