@@ -15,6 +15,12 @@
   font-family: "din";
   src: url("/data/font/dinc.ttf");
 }
+#containurself{
+ position:relative;
+float:center;
+ align-items:center;
+}
+
 
 #box{
  position:relative;
