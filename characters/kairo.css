@@ -19,6 +19,23 @@
    font-weight: 900;
 }
 
+#box1{
+ font-family: "bv";
+ font-size:50px;
+ text-align:center;
+ color: white;
+   font-weight: 700;
+}
+
+#box2{
+ font-family: "bv";
+ font-size:30px;
+ text-align:center;
+ color: white;
+   font-weight: 600;
+}
+
+
 .sidenav a:hover {color:#fff; background-color:#282828;}
 .sidenav a:active {color:#3664b6;}
 .sidenav>hr {border-style:dotted; border-width:1px 0 0 0; margin:8px 0 8px 0;}
