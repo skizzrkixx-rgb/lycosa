@@ -1,6 +1,6 @@
 body{
       background-image: url("data/images/backgrounds/lycosabackground1.png");
-     background-size:auto;
+     background-size:contain;
 }
 
   #container{
@@ -61,6 +61,7 @@ a:active {color:#fff;}
  
 
     
+
 
 
 
