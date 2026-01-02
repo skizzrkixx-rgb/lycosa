@@ -49,7 +49,7 @@ margin-right: 6px;
   display: block;
 } 
 body{
-    cursor: url('data/images/random/cursor1.gif'), pointer;
+    cursor: url('/data/images/random/cursor1.gif'), pointer;
 }
 
 @font-face{
