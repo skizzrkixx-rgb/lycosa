@@ -7,8 +7,8 @@
     }
 #kairoimg1{
  
- 
- 
+  left:10%;
+  position:relative;
  animation: hoverhand 3s ease-in-out infinite;
  animation-name: hoverhand;
  animation-duration: 3s;
