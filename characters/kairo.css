@@ -8,12 +8,12 @@
 
 @font-face {
   font-family: "bv";
-  src: url("data/font/Baskervville-Regular.ttf");
+  src: url("/data/font/Baskervville-Regular.ttf");
 }
 
 @font-face {
   font-family: "din";
-  src: url("data/font/dinc.ttf");
+  src: url("/data/font/dinc.ttf");
 }
 
 #box{
