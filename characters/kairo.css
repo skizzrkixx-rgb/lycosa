@@ -5,6 +5,21 @@
     
       
     }
+#kairoimg1{
+ 
+ 
+ 
+ animation: hoverhand 3s ease-in-out infinite;
+ animation-name: hoverhand;
+ animation-duration: 3s;
+ animation-timing-function: ease-in-out;
+ animation-delay: 0s;
+ animation-iteration-count: infinite;
+ animation-direction: normal;
+ animation-fill-mode: none;
+ animation-play-state: running;
+ animation-timeline: ;}
+
 
 @font-face {
   font-family: "bv";
