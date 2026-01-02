@@ -12,9 +12,10 @@
 }
 
 #box{
-  font-family: "bv";
-font-size:50px;
+ font-family: "bv";
+ font-size:70px;
  text-align:center;
+ text-color: white;
 }
 
 .sidenav a:hover {color:#fff; background-color:#282828;}
