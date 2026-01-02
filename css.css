@@ -50,8 +50,6 @@ margin-right: 6px;
 } 
 body, html {
     cursor: url('data/images/random/cursor1.gif'), pointer;
-       background-image: url("data/images/random/IMG_4292.png");
-    background-size: cover;
 }
 
 @font-face{
