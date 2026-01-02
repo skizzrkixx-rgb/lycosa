@@ -22,6 +22,8 @@ float:center;
   display:inline-block;
     gap: 15px;
 text-align:center;
+ left:50%;
+ right:50%;
 }
 
 
