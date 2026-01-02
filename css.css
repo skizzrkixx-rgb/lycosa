@@ -48,7 +48,7 @@ margin-right: 6px;
 .active {
   display: block;
 } 
-body, html {
+body{
     cursor: url('data/images/random/cursor1.gif'), pointer;
 }
 
