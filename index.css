@@ -13,12 +13,9 @@ a:active {color:#fff;}
      
      
    } 
-      body{
-      
+      #body{
       background-image: url("data/images/backgrounds/lycosabackground1.png");
      background-size: cover;
-    
-      
     }
     
     #container{
@@ -63,6 +60,7 @@ a:active {color:#fff;}
  
 
     
+
 
 
 
