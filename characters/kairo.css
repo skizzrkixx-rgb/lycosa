@@ -1,7 +1,7 @@
  body{
        cursor: crosshair;
       background-image: url("/data/images/backgrounds/Kairobackground1.png");
-     background-size: cover;
+     background-size: contain;
     
       
     }
