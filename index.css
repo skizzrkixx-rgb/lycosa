@@ -1,3 +1,7 @@
+body{
+      background-image: url("data/images/backgrounds/lycosabackground1.png");
+     background-size:cover;
+}
 
 .sidenav a:hover {color:#fff; background-color:#282828;}
 .sidenav a:active {color:#3664b6;}
@@ -13,11 +17,6 @@ a:active {color:#fff;}
      
      
    } 
-
-body{
-      background-image: url("data/images/backgrounds/lycosabackground1.png");
-     background-size:cover;
-}
     
     #container{
       display:flex;
@@ -61,6 +60,7 @@ body{
  
 
     
+
 
 
 
