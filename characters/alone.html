@@ -5,6 +5,8 @@
  <meta charset="UTF-8"> 	
 <link rel="stylesheet" href="/css.css">
 <link rel="stylesheet" href="alone.css">
+<link rel="stylesheet" href="https://pyscript.net/releases/2025.11.2/core.css" />
+<script type="module" src="https://pyscript.net/releases/2025.11.2/core.js"></script>	
 </head>
 <body>
   
@@ -81,7 +83,21 @@ for (i = 0; i < toggler.length; i++) {
 <p>Please enter a command into the terminal below in order to select an option. Enter "?" to show a list of avaliable commands.</p>
 </div>
 
-
+<script type="py">
+            # Pyodide
+            command = input("Enter a command: ")
+			if command == "?"
+				print("Here is a list of avaliable commands:")
+				print("status, user_password, .txt_logs")
+			if command == "status"
+				print("status: alive")
+			if command == "user_password"
+				print("user_password: M4NT15")
+			if command == ".txt_logs"
+				print("null")
+			else:
+				print("INVALID COMMAND. TRY AGAIN.")
+        </script>
 	
   
 </body>
