@@ -20,12 +20,12 @@ a:active {color:#fff;}
 }
 
 @font-face{
- font-family: "hack";
-  src: url("/data/font/haxx.ttf");
+ font-family: 'hack';
+  src: url('/data/font/haxx.ttf'); format:('truetype');
 }
 
 #text1{
-font-family: "hack";
+font-family: 'hack';
 color:#ffffff;
 text-align:center;
 font-size:50px;   
