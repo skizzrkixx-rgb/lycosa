@@ -22,7 +22,7 @@ a:active {color:#fff;}
   src: url('/data/font/Hack-Regular.ttf');
 }
 
-#text1{
+.text1{
 font-family: 'hack';
 color:#ffffff;
 text-align:center;
