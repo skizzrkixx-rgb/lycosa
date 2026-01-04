@@ -18,12 +18,12 @@ a:active {color:#fff;}
 }
 
 @font-face{
- font-family: "hackr";
-  src: url("/data/font/Hack-Regular.ttf");
+ font-family: 'hack',;
+  src: url('/data/font/Hack-Regular.ttf');
 }
 
 #text1{
-font-family: "hackr";
+font-family: 'hack';
 color:#ffffff;
 text-align:center;
 font-size:50px;   
