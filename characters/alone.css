@@ -21,7 +21,7 @@ a:active {color:#fff;}
 
 @font-face{
  font-family: 'hack';
-  src: url('/data/font/haxx.ttf'); format:('truetype');
+  src: url('../data/font/haxx.ttf'); format:('truetype');
 }
 
 #text1{
