@@ -6,10 +6,7 @@
       
     }
 
-@font-face{
- font-family: "hack";
-  src: url("/data/font/Hack-Regular.ttf");
-}
+
 
 
 .sidenav a:hover {color:#fff; background-color:#282828;}
@@ -22,6 +19,10 @@ a:hover {color:#181818;	border: 1px solid transparent; border-image: url("/data/
 a:active {color:#fff;}
 }
 
+@font-face{
+ font-family: "hack";
+  src: url("/data/font/Hack-Regular.ttf");
+}
 
 #text1{
 font-family: "hack";
