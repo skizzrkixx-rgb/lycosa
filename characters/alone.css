@@ -19,7 +19,7 @@ a:active {color:#fff;}
 
 @font-face{
  font-family: 'hack';
-  src: url('/data/font/Hack-Regular.ttf');
+  src: url('../data/font/Hack-Regular.ttf');
 }
 
 .text1{
