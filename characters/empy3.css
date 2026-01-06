@@ -47,6 +47,8 @@ margin: auto;
 position:relative;
 image-rendering: pixelated;
 vertical-align: bottom;
+width: 300px;
+height: auto;
 }   
 
 .empytext1{
