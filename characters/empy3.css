@@ -52,14 +52,13 @@ border: 1px solid transparent; border-image: url("/data/images/random/ants.gif")
 width: 900px;
 height: 100vh;
 align-items: center;
-display: flex;
+display: block;
 justify-content: center;
 text-align: center;
-float: center;
+float: top;
 align-self: center;
 text-align: center;
 margin: auto;
-vertical-align: top;
 }
 
 
