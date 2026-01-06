@@ -1,5 +1,6 @@
 body {
-  background-image: url("/data/images/backgrounds/polkabg.gif");
+  background-image: url("/data/images/backgrounds/empybg.gif");
+  background-size: cover;
 }
 
 .sidenav a:hover {color:#fff; background-color:#282828;}
@@ -8,11 +9,11 @@ body {
 a {cursor:crosshair; border: 1px solid transparent; margin: 0px;}
 a:link {color:#3664b6;}
 a:visited {color:#3664b6;}
-a:hover {color:#181818;	border: 1px solid transparent; border-image: url("data/images/random/ants.gif") 1 repeat; background-color:e6e6e6;}
+a:hover {color:#181818;	border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat; background-color:e6e6e6;}
 a:active {color:#fff;}
 
-#ddr-arrowz{
 
+#ddr-arrowz{
 animation: hoverhand 3s ease-in-out infinite;
 float: center;
 display: flex;
@@ -42,6 +43,18 @@ float: center;
 align-items: center;
 }   
 
+.containempy{
+
+  background-image: url("/data/images/backgrounds/polkabg.gif");
+border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat;
+width: 600px;
+height: auto;
+align-items: center;
+display: flex;
+justify-content: center;
+text-align: center;
+float: center;
+}
 
 
 @font-face {
