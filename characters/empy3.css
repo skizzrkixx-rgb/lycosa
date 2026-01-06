@@ -23,7 +23,7 @@ margin: auto;
 position: relative;
 image-rendering: pixelated;
 }   
-#empytext{
+.empytext{
 position: relative;
 float: center;
 display: flex;
@@ -37,7 +37,7 @@ font-size: 250px;
 color: #fff;
 }   
 
-#empytext2{
+.empytext2{
 position: relative;
 float: center;
 display: flex;
