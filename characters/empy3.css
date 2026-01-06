@@ -37,6 +37,7 @@ vertical-align: bottom;
 
 
 #modular{
+  border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat;
   animation: hoverhand 3s ease-in-out infinite;
 float: center;
 display: block;
