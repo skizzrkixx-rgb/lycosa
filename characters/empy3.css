@@ -16,7 +16,7 @@ a:active {color:#fff;}
 #ddr-arrowz{
 animation: hoverhand 3s ease-in-out infinite;
 float: center;
-display: flex;
+display: block;
 align-items: center;
 align-self: center;
 justify-content: center;
