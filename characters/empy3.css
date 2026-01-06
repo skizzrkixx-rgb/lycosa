@@ -63,7 +63,7 @@ color: #fff;
 }
 
 @keyframes hoverhand {
-	0% {transform:translate(0px, 4px);}
-	50% {transform:translate(0px, -4px);}
-	100% {transform:translate(0px, 4px);}
+	0% {transform:translate(0px, 2px);}
+	50% {transform:translate(0px, -2px);}
+	100% {transform:translate(0px, 2px);}
 }
