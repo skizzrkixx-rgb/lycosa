@@ -23,7 +23,7 @@ margin: auto;
 position: relative;
 image-rendering: pixelated;
 }   
-.empytext{
+.empytext1{
 font-family: "dd";
 font-size: 200px;
 color: #fff;
@@ -34,6 +34,14 @@ font-family: "fp";
 font-size: 200px;
 color: #fff;
 }   
+
+.empytext{
+text-align: center;
+justify-content: center;
+float: center;
+align-items: center;
+}   
+
 
 
 @font-face {
