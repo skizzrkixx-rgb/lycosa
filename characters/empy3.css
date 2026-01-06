@@ -18,8 +18,8 @@ float: center;
 display: flex;
 align-items: center;
 align-self: center;
-
-
+justify-content: center;
+ margin: auto;
 }   
 
 @keyframes hoverhand {
