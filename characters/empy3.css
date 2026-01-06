@@ -52,6 +52,30 @@ width: 300px;
 height: 400px;
 }   
 
+@keyframes spin {
+	0%   {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+	}
+
+#modular{
+
+animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+float: left;
+display: block;
+align-items: left;
+align-self: left;
+justify-content: left;
+margin-left: 25px;
+position:relative;
+image-rendering: pixelated;
+vertical-align: bottom;
+width: 300px;
+height: 400px;
+}   
+
 .empytext1{
 font-family: "dd";
 font-size: 150px;
