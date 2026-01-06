@@ -20,17 +20,26 @@ align-items: center;
 align-self: center;
 justify-content: center;
 margin: auto;
+position: relative;
 }   
-#empylogo{
+#empytext{
+position: relative;
 float: center;
 display: flex;
 align-items: center;
 align-self: center;
 justify-content: center;
 margin: auto;
-width: 700px;
-height: 430px;
+text-align: center;
+font-family: "dd";
+font-size: xx-large;
+color: #fff;
 }   
+
+@font-face {
+  font-family: "dd";
+  src: url("/data/font/DigitalDisorder.ttf");
+}
 
 @keyframes hoverhand {
 	0% {transform:translate(0px, 4px);}
