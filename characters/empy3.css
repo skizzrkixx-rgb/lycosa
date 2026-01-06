@@ -1,5 +1,5 @@
 body {
-  background-image: url("/data/images/backgrounds/empybg.gif");
+  background-image: url("/data/images/backgrounds/empybg.png");
   background-size: cover;
 }
 
@@ -47,8 +47,8 @@ align-items: center;
 
   background-image: url("/data/images/backgrounds/polkabg.gif");
 border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat;
-width: 600px;
-height: auto;
+width: 700px;
+height: 100%;
 align-items: center;
 display: flex;
 justify-content: center;
