@@ -23,6 +23,7 @@ justify-content: center;
 margin: auto;
 position:relative;
 image-rendering: pixelated;
+vertical-align: bottom;
 }   
 .empytext1{
 font-family: "dd";
