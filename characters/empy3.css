@@ -13,12 +13,12 @@ a:active {color:#fff;}
 
 #ddr-arrowz{
 
-position: relative;
 animation: hoverhand 3s ease-in-out infinite;
 float: center;
 display: flex;
 align-items: center;
 align-self: center;
+
 
 }   
 
