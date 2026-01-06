@@ -39,11 +39,11 @@ vertical-align: bottom;
 #modular{
   border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat;
   animation: hoverhand 3s ease-in-out infinite;
-float: center;
+float: left;
 display: block;
-align-items: center;
-align-self: center;
-justify-content: center;
+align-items: left;
+align-self: left;
+justify-content: left;
 margin: auto;
 position:relative;
 image-rendering: pixelated;
