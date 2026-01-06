@@ -24,22 +24,12 @@ position: relative;
 image-rendering: pixelated;
 }   
 .empytext{
-position: relative;
-float: center;
-display: flex;
-margin: auto;
-text-align: center;
 font-family: "dd";
-font-size: 250px;
+font-size: 200px;
 color: #fff;
 }   
 
 .empytext2{
-position: relative;
-float: center;
-display: flex;
-margin: auto;
-text-align: center;
 font-family: "fp";
 font-size: 200px;
 color: #fff;
