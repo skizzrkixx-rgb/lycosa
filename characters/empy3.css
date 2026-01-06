@@ -21,11 +21,12 @@ align-items: center;
 align-self: center;
 justify-content: center;
 margin: auto;
+position: absolute;
 image-rendering: pixelated;
 }   
 .empytext1{
 font-family: "dd";
-font-size: 180px;
+font-size: 150px;
 color: #fff;
 }   
 
@@ -40,6 +41,7 @@ text-align: center;
 justify-content: center;
 float: center;
 align-items: center;
+position:relative;
 }   
 
 .containempy{
@@ -54,7 +56,6 @@ justify-content: center;
 text-align: center;
 float: center;
 align-self: center;
-position:relative;
 text-align: center;
 margin: auto;
 }
