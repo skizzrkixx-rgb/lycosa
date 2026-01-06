@@ -25,6 +25,20 @@ position:relative;
 image-rendering: pixelated;
 vertical-align: bottom;
 }   
+
+#modular{
+animation: hoverhand 3s ease-in-out infinite;
+float: center;
+display: block;
+align-items: center;
+align-self: center;
+justify-content: center;
+margin: auto;
+position:relative;
+image-rendering: pixelated;
+vertical-align: bottom;
+}   
+
 .empytext1{
 font-family: "dd";
 font-size: 150px;
