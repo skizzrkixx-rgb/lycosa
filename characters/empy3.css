@@ -14,7 +14,10 @@ a:active {color:#fff;}
 
 
 #ddr-arrowz{
-animation: hoverhand 3s ease-in-out infinite;
+animation-name: throb;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 float: center;
 display: block;
 align-items: center;
@@ -34,10 +37,7 @@ vertical-align: bottom;
 
 
 #modular{
-animation-name: throb;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation: hoverhand 3s ease-in-out infinite;
 float: center;
 display: block;
 align-items: center;
