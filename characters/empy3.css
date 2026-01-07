@@ -108,13 +108,13 @@ height: 180px;
 
 #empy3img{
 animation: hoverhand 3s ease-in-out infinite;
-float: right;
+float: left;
 display: block;
-align-items: right;
-align-self: right;
-justify-content: right;
-margin-top: 1090px;
-margin-right: 100px;
+align-items: left;
+align-self: left;
+justify-content: left;
+margin-top: 1100px;
+margin-left: 50px;
 position:absolute;
 image-rendering: pixelated;
 vertical-align: bottom;
