@@ -113,7 +113,7 @@ display: block;
 align-items: left;
 align-self: left;
 justify-content: left;
-margin-top: 15px;
+margin-top: 0px;
 margin-left: 0px;
 position:absolute;
 image-rendering: pixelated;
@@ -166,6 +166,7 @@ align-self: center;
 text-align: center;
 margin: auto;
 top: 0%;
+overflow: hidden;
 }
 
 @font-face {
