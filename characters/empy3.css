@@ -107,14 +107,14 @@ height: 180px;
 }   
 
 #empy3img{
-animation: hoverhand 3s ease-in-out infinite;
+animation: hoverhand 4s ease-in-out infinite;
 float: left;
 display: block;
 align-items: left;
 align-self: left;
 justify-content: left;
-margin-top: 8S00px;
-margin-left: 50px;
+margin-top: 8S90px;
+margin-left: 0px;
 position:absolute;
 image-rendering: pixelated;
 vertical-align: bottom;
