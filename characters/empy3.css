@@ -39,9 +39,6 @@ height: 120px;
 
 
 #modular{
-  border-left: 2px solid transparent;
-	border-right: 2px solid transparent;
-	border-image: url('/data/images/random/ants2.png') 2 repeat;
   animation: hoverhand 3s ease-in-out infinite;
 float: left;
 display: block;
