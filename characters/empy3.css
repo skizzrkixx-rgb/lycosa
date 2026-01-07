@@ -105,7 +105,7 @@ border-left: 2px solid transparent;
 	border-image: url('/data/images/random/ants2.png') 2 repeat;
 background-image: url("/data/images/backgrounds/polkabg.gif");
 width: 900px;
-height: 100vh;
+height: 100%;
 align-items: center;
 display: block;
 justify-content: center;
