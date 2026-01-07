@@ -57,7 +57,7 @@ height: 400px;
 	100% {transform: rotate(360deg);}
 	}
 
-#modular{
+#smiley{
 
 animation-name: spin;
   animation-duration: 2s;
