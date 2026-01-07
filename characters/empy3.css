@@ -125,7 +125,7 @@ height: 180px;
 }   
 
 #empy3img{
-animation: hoverhand 5s ease-in-out infinite;
+animation: hoverhandslower 5s ease-in-out infinite;
 float: left;
 display: block;
 align-items: left;
@@ -207,4 +207,10 @@ overflow: hidden;
 	0% {transform:translate(0px, 4px);}
 	50% {transform:translate(0px, -4px);}
 	100% {transform:translate(0px, 4px);}
+}
+
+@keyframes hoverhandslower {
+	0% {transform:translate(0px, 6px);}
+	50% {transform:translate(0px, -6px);}
+	100% {transform:translate(0px, 6px);}
 }
