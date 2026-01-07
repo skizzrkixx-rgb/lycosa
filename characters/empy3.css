@@ -23,10 +23,10 @@ display: block;
 align-items: center;
 align-self: center;
 justify-content: center;
+margin: auto;
 position:relative;
 image-rendering: pixelated;
 vertical-align: bottom;
-margin-top: 300px;
 }   
 
 @keyframes throb {
