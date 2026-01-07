@@ -59,7 +59,6 @@ border: #fff 2px solid;
 	}
 
 #smiley{
-
 animation-name: spin;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -81,6 +80,32 @@ border-radius:50%;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
 }   
+
+@keyframes wag {
+	0%   {transform: rotate(6deg);}
+	50%  {transform: rotate(-6deg);}
+	100% {transform: rotate(6deg);}
+	}
+
+#tama{
+animation-name: wag;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+float: left;
+display: block;
+align-items: left;
+align-self: left;
+justify-content: left;
+margin-top: 250px;
+margin-left: 150px;
+position:absolute;
+image-rendering: pixelated;
+vertical-align: bottom;
+width: 150px;
+height: 150px;
+}   
+
 
 .empytext1{
 font-family: "dd";
