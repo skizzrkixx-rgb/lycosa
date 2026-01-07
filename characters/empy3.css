@@ -70,7 +70,7 @@ align-self: left;
 justify-content: left;
 margin-top: 330px;
 margin-left: 5px;
-position:relative;
+position:absolute;
 image-rendering: pixelated;
 vertical-align: bottom;
 width: 150px;
