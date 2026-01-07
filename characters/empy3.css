@@ -39,7 +39,9 @@ height: 120px;
 
 
 #modular{
-  border: 1px solid transparent; border-image: url("/data/images/random/ants2.png") 1 repeat;
+  border-left: 2px solid transparent;
+	border-right: 2px solid transparent;
+	border-image: url('/data/images/random/ants2.png') 2 repeat;
   animation: hoverhand 3s ease-in-out infinite;
 float: left;
 display: block;
@@ -102,8 +104,10 @@ margin-bottom: -22px;
 
 .containempy{
 position: relative;
+border-left: 2px solid transparent;
+	border-right: 2px solid transparent;
+	border-image: url('/data/images/random/ants2.png') 2 repeat;
 background-image: url("/data/images/backgrounds/polkabg.gif");
-border: 1px solid transparent; border-image: url("/data/images/random/ants2.png") 1 repeat;
 width: 900px;
 height: 100vh;
 align-items: center;
