@@ -113,17 +113,14 @@ display: block;
 align-items: left;
 align-self: left;
 justify-content: left;
-margin-top: 1100px;
+margin-top: 800px;
 margin-left: 50px;
 position:absolute;
 image-rendering: pixelated;
 vertical-align: bottom;
 width: 150px;
 height: 150px;
-border: #fff 3px solid;
-border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
+
 }   
 
 .empytext1{
