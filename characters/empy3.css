@@ -76,6 +76,7 @@ image-rendering: pixelated;
 vertical-align: bottom;
 width: 150px;
 height: 150px;
+border: #fff 2px solid;
 }   
 
 .empytext1{
