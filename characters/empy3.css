@@ -105,17 +105,15 @@ border-left: 2px solid transparent;
 	border-image: url('/data/images/random/ants2.png') 2 repeat;
 background-image: url("/data/images/backgrounds/polkabg.gif");
 width: 900px;
-height: 100%;
+height: 100vh;
 align-items: center;
-display: inline-block;
+display: block;
 justify-content: center;
 text-align: center;
 float: top;
 align-self: center;
 text-align: center;
 margin: auto;
-top: 0;
-
 }
 
 
