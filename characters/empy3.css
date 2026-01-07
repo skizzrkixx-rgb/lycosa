@@ -112,7 +112,7 @@ background-image: url("/data/images/backgrounds/polkabg.gif");
 width: 900px;
 height: 100%;
 align-items: center;
-display: block;
+display: inline-block;
 justify-content: center;
 text-align: center;
 float: top;
@@ -120,6 +120,7 @@ align-self: center;
 text-align: center;
 margin: auto;
 top: 0;
+
 }
 
 
