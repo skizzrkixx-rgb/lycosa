@@ -39,7 +39,7 @@ height: 120px;
 
 
 #modular{
-  border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat;
+  border: 1px solid transparent; border-image: url("/data/images/random/ants2.gif") 1 repeat;
   animation: hoverhand 3s ease-in-out infinite;
 float: left;
 display: block;
