@@ -36,6 +36,24 @@ height: 120px;
 	100% {transform: scale(1);}
 	}
 
+  #window1{
+
+width: 200px;
+height: 100px;
+float: left;
+display: block;
+align-items: left;
+align-self: left;
+justify-content: left;
+margin-top: 400px;
+margin-left: 15px;
+position:relative;
+image-rendering: pixelated;
+vertical-align: bottom;
+
+
+
+  }
 
 #modular{
   animation: hoverhand 3s ease-in-out infinite;
@@ -69,7 +87,7 @@ align-items: left;
 align-self: left;
 justify-content: left;
 margin-top: 330px;
-margin-left: 200px;
+margin-left: 190px;
 position:absolute;
 image-rendering: pixelated;
 vertical-align: bottom;
