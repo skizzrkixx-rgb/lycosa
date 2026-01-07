@@ -97,13 +97,13 @@ display: block;
 align-items: left;
 align-self: left;
 justify-content: left;
-margin-top: 250px;
-margin-left: 150px;
+margin-top: 200px;
+margin-left: 120px;
 position:absolute;
 image-rendering: pixelated;
 vertical-align: bottom;
-width: 150px;
-height: 150px;
+width: 180px;
+height: 180px;
 }   
 
 
