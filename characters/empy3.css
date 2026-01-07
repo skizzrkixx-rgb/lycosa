@@ -50,6 +50,7 @@ image-rendering: pixelated;
 vertical-align: bottom;
 width: 300px;
 height: 400px;
+border: #fff 2px solid;
 }   
 
 @keyframes spin {
