@@ -13,11 +13,13 @@ a:active {color:#fff;}
 
 .vi1{
 text-align: left;
+font-family: "vga";
 }
 
 .vi2{
 
 text-align: right;
+font-family: "vga";
 
 }
 
@@ -63,10 +65,7 @@ image-rendering: pixelated;
 vertical-align: bottom;
 }
 
-#empyvitals{
-font-family: "vga";
-list-style-type: disc;
-}
+
 
 #modular{
   animation: hoverhand 3s ease-in-out infinite;
