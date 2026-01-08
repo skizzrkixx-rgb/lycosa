@@ -50,10 +50,14 @@ margin-left: -290px;
 position:relative;
 image-rendering: pixelated;
 vertical-align: bottom;
-text-align: left;
+
 
 
   }
+#empyvitals{
+text-align: left;
+font-family: "vga";
+}
 
 #modular{
   animation: hoverhand 3s ease-in-out infinite;
@@ -195,6 +199,11 @@ overflow: hidden;
 @font-face {
   font-family: "dd";
   src: url("/data/font/DigitalDisorder.ttf");
+}
+
+@font-face {
+  font-family: "vga";
+  src: url("/data/font/Perfect DOS VGA 437.ttf");
 }
 
 @font-face {
