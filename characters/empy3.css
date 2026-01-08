@@ -36,6 +36,14 @@ height: 120px;
 	100% {transform: scale(1);}
 	}
 
+  .1vi{
+   text-align: left;
+   }
+
+   .2vi{
+   text-align: right;
+   }
+
   #window1{
 
 width: 220px;
