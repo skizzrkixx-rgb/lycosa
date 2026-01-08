@@ -99,6 +99,8 @@ height: 400px;
 border: #fff 2px solid;
 }   
 
+
+
 @keyframes spin {
 	0%   {transform: rotate(0deg);}
 	100% {transform: rotate(360deg);}
@@ -133,7 +135,7 @@ border-radius:50%;
 	100% {transform: rotate(6deg);}
 	}
 
-#smile2{
+#PLURFX{
 animation-name: wag;
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
@@ -143,17 +145,13 @@ display: block;
 align-items: left;
 align-self: left;
 justify-content: left;
-margin-top: 150px;
-margin-left: 300px;
+margin-top: 100px;
+margin-left: 330px;
 position:absolute;
 image-rendering: pixelated;
 vertical-align: bottom;
-width: 180px;
-height: 180px;
-border: #fff 3px solid;
-border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
+width: 400px;
+height: 300px;
 }   
 
 #empy3img{
