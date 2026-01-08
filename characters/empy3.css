@@ -47,7 +47,23 @@ height: 120px;
 	100% {transform: scale(1);}
 	}
 
-  
+  #rainbow{
+ animation-name: throb;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;   
+image-rendering: pixelated;
+font-family: "vcr";
+font-size: 80px;
+color: #fff;
+text-align: center;
+justify-content: center;
+float: center;
+align-items: center;
+position:relative;
+margin-top: 450px;
+margin-left: -630px;
+  }
 
   #window1{
 
@@ -223,6 +239,11 @@ overflow: hidden;
 @font-face {
   font-family: "fp";
   src: url("/data/font/full Pack 2025.ttf");
+}
+
+@font-face {
+  font-family: "vcr";
+  src: url("/data/font/BetterVCR 25.09.ttf");
 }
 
 @keyframes hoverhand {
