@@ -11,6 +11,15 @@ a:visited {color:#3664b6;}
 a:hover {color:#181818;	border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat; background-color:e6e6e6;}
 a:active {color:#fff;}
 
+vi1{
+text-align: left;
+}
+
+vi2{
+
+text-align: right;
+
+}
 
 #ddr-arrowz{
 animation-name: throb;
@@ -36,13 +45,7 @@ height: 120px;
 	100% {transform: scale(1);}
 	}
 
-  .1vi{
-   text-align: left;
-   }
-
-   .2vi{
-   text-align: right;
-   }
+  
 
   #window1{
 
@@ -58,12 +61,11 @@ margin-left: -290px;
 position:relative;
 image-rendering: pixelated;
 vertical-align: bottom;
+}
 
-
-
-  }
 #empyvitals{
 font-family: "vga";
+list-style-type: disc;
 }
 
 #modular{
@@ -139,6 +141,8 @@ height: 180px;
 float: left;
 display: block;
 align-items: left;
+width: 496px;
+height: 503px;
 align-self: left;
 justify-content: left;
 margin-top: 30px;
