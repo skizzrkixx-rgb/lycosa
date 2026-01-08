@@ -46,7 +46,7 @@ align-items: left;
 align-self: left;
 justify-content: left;
 margin-top: 220px;
-left: 5px;
+margin-left: 0;
 position:relative;
 image-rendering: pixelated;
 vertical-align: bottom;
