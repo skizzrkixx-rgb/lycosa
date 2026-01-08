@@ -98,8 +98,8 @@ display: block;
 align-items: left;
 align-self: left;
 justify-content: left;
-margin-top: 330px;
-margin-left: 190px;
+margin-top: 300px;
+margin-left: 170px;
 position:absolute;
 image-rendering: pixelated;
 vertical-align: bottom;
@@ -117,7 +117,7 @@ border-radius:50%;
 	100% {transform: rotate(6deg);}
 	}
 
-#tama{
+#smile2{
 animation-name: wag;
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
@@ -127,13 +127,17 @@ display: block;
 align-items: left;
 align-self: left;
 justify-content: left;
-margin-top: 190px;
-margin-left: 250px;
+margin-top: 150px;
+margin-left: 300px;
 position:absolute;
 image-rendering: pixelated;
 vertical-align: bottom;
 width: 180px;
 height: 180px;
+border: #fff 3px solid;
+border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
 }   
 
 #empy3img{
@@ -144,7 +148,7 @@ width: 496px;
 height: 503px;
 align-self: left;
 justify-content: left;
-margin-top: 30px;
+margin-top: 220px;
 margin-left: 0px;
 position:absolute;
 image-rendering: pixelated;
