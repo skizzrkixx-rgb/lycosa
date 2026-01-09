@@ -1,12 +1,15 @@
  /* pink theme */
-        
+        @font-face {
+font-family: 'basiic';
+ src: url('/data/fonts/basiic.ttf') format("truetype");
+ }
+
         #musicplayer{ 
           font-family: 'basiic';
           font-weight:bold;
           height:30px;
           width:100%;
-          left:0;
-          top:0;
+          margin-top: 150px;
           position:absolute;
           margin-bottom:20px;  
           display:flex;
