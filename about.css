@@ -44,6 +44,11 @@ border: 1px solid transparent; border-image: url("data/images/random/ants.gif") 
 }
 
 @font-face {
+    font-family: dosvga;
+    src: url("data/font/Perfect DOS VGA 437.ttf");
+}
+
+@font-face {
     font-family: dd;
     src: url("data/font/DigitalDisorder.ttf");
 }
@@ -55,16 +60,15 @@ border: 1px solid transparent; border-image: url("data/images/random/ants.gif") 
 #aboutcontainer{
     image-rendering: pixelated;
     animation: hoverhand 3s ease-in-out infinite;
-    font-family: dd;
-    text-align: left;
+    font-family: dosvga;
+    text-align: center;
+    color: #fff;
     max-width: 500px;
-    font-size: 85px;
+    font-size: 110px;
     line-height: 1.25;
     margin-top: 16px;
-    background-image: url("data/images/backgrounds/bg_dither.png"); 
-    background-color: #fff;
+    background-color: #000000;
     padding-top: 10px;
-    padding-bottom: 15px;
     padding-left: 40px;
     padding-right: 40px;
     border-style:dotted; border-width:1px 1px 1px 1px; margin:8px 8px 8px 8px;
