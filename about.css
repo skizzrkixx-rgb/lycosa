@@ -1,0 +1,71 @@
+
+body{
+    background-image: url("data/images/backgrounds/dither_it_lycosabackground1.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.sidenav a:hover {color:#fff; background-color:#282828;}
+.sidenav a:active {color:#3664b6;}
+.sidenav>hr {border-style:dotted; border-width:1px 0 0 0; margin:8px 0 8px 0;}
+a {cursor:crosshair; border: 1px solid transparent; margin: 0px;}
+a:link {color:#3664b6;}
+a:visited {color:#3664b6;}
+a:hover {color:#181818;	border: 1px solid transparent; border-image: url("data/images/random/ants.gif") 1 repeat; background-color:e6e6e6;}
+a:active {color:#fff;}
+
+#mainabout{
+
+border: 1px solid transparent; border-image: url("data/images/random/ants.gif") 1 repeat; padding: 10px;
+
+}
+
+
+
+#about{
+    font-family:monaspace;
+    text-align: left;
+    max-width: 500px;
+    font-size: 14px;
+    line-height: 1.25;
+    margin-top: 16px;
+    background-image: url("data/images/backgrounds/bg_dither.png"); 
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style:dotted; border-width:1px 1px 1px 1px; margin:8px 8px 8px 8px;
+}
+
+@font-face {
+    font-family: monaspace;
+    src: url("data/font/MonaspaceKryptonFrozen-Regular.ttf");
+}
+
+@font-face {
+    font-family: dd;
+    src: url("data/font/DigitalDisorder.ttf");
+}
+@keyframes hoverhand {
+	0% {transform:translate(0px, 4px);}
+	50% {transform:translate(0px, -4px);}
+	100% {transform:translate(0px, 4px);}
+}
+#aboutcontainer{
+    image-rendering: pixelated;
+    animation: hoverhand 3s ease-in-out infinite;
+    font-family: dd;
+    text-align: left;
+    max-width: 500px;
+    font-size: 85px;
+    line-height: 1.25;
+    margin-top: 16px;
+    background-image: url("data/images/backgrounds/bg_dither.png"); 
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style:dotted; border-width:1px 1px 1px 1px; margin:8px 8px 8px 8px;
+}
