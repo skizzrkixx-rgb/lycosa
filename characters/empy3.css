@@ -171,7 +171,6 @@ margin-top: 320px;
 margin-left: 50px;
 position:absolute;
 image-rendering: pixelated;
-vertical-align: bottom;
 width: 400px;
 height: 300px;
 }   
@@ -188,7 +187,6 @@ margin-top: 100px;
 margin-left: 330px;
 position:absolute;
 image-rendering: pixelated;
-vertical-align: bottom;
 width: 400px;
 height: 300px;
 }   
@@ -203,7 +201,6 @@ margin-top: 370px;
 margin-left: 470px;
 position:absolute;
 image-rendering: crisp-edges;
-vertical-align: bottom;
 width: 450px;
 height: 200px;
 }   

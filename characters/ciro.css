@@ -19,7 +19,7 @@
  animation-direction: normal;
  animation-fill-mode: none;
  animation-play-state: running;
- animation-timeline: ;}
+ }
 
 @keyframes hoverhand {
 	0% {transform:translate(0px, 4px);}
@@ -135,6 +135,5 @@ a:link {color:#3664b6;}
 a:visited {color:#3664b6;}
 a:hover {color:#181818;	border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat; background-color:e6e6e6;}
 a:active {color:#fff;}
-}
-     
+ 
   
