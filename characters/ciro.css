@@ -1,6 +1,7 @@
  body{
        cursor: crosshair;
       background-image: url("/data/images/backgrounds/dither_it_cirobackground1.png");
+     background-size: fixed;
      background-size: cover;
     
       
@@ -25,6 +26,58 @@
 	50% {transform:translate(0px, -4px);}
 	100% {transform:translate(0px, 4px);}
 }
+
+#maintext1{
+ position:relative;
+ font-family: "bv";
+ font-size:20px;
+ text-align:center;
+ color: white;
+   font-weight: 900;
+width:300px;
+float:center;
+ align-items:center;
+ display:inline-block;
+ bottom: 1000px;
+padding: 5px;
+ border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat; background-color: #181818ad;
+
+}
+
+#maintext2{
+ position:relative;
+ font-family: "bv";
+ font-size:20px;
+ text-align:center;
+ color: white;
+   font-weight: 900;
+width:300px;
+float:center;
+ align-items:center;
+ display:inline-block;
+ bottom: 930px;
+ padding: 5px;
+ border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat; background-color: #181818ad;
+left: 50px;
+}
+
+#maintext3{
+ position:relative;
+ font-family: "bv";
+ font-size:20px;
+ text-align:center;
+ color: white;
+   font-weight: 900;
+width:300px;
+float:center;
+ align-items:center;
+ display:inline-block;
+ bottom: 500px;
+ padding: 5px;
+ border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat; background-color: #181818ad;
+left: -300px;
+}
+
 
 @font-face {
   font-family: "bv";
