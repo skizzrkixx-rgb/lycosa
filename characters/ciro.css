@@ -29,7 +29,7 @@
 
 #maintext1{
  position:relative;
- font-family: "bv";
+ font-family: "haxx";
  font-size:20px;
  text-align:center;
  color: white;
@@ -46,7 +46,7 @@ padding: 5px;
 
 #maintext2{
  position:relative;
- font-family: "bv";
+ font-family: "haxx";
  font-size:20px;
  text-align:center;
  color: white;
@@ -58,12 +58,12 @@ float:center;
  bottom: 800px;
  padding: 5px;
  border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat; background-color: #181818ad;
-left: 50px;
+left: 65px;
 }
 
 #maintext3{
  position:relative;
- font-family: "bv";
+ font-family: "haxx";
  font-size:20px;
  text-align:center;
  color: white;
@@ -78,6 +78,10 @@ float:center;
 left: -300px;
 }
 
+@font-face {
+  font-family: "haxx";
+  src: url("/data/font/haxx.ttf");
+}
 
 @font-face {
   font-family: "bv";
