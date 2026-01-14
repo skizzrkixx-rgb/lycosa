@@ -28,24 +28,23 @@
 }
 
 #maintext1{
- position:relative;
+position:absolute;
  font-family: "haxx";
  font-size:20px;
  text-align:center;
  color: white;
    font-weight: 900;
 width:300px;
-float:center;
  align-items:center;
  display:inline-block;
- bottom: 1000px;
+ margin-top: -950px;
+ margin-left: 15px;
 padding: 5px;
  border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat; background-color: #181818ad;
-
 }
 
 #maintext2{
- position:relative;
+position:absolute;
  font-family: "haxx";
  font-size:20px;
  text-align:center;
@@ -55,27 +54,28 @@ width:300px;
 float:center;
  align-items:center;
  display:inline-block;
- bottom: 800px;
+ margin-top: -625px;
+ margin-left: 635px;
  padding: 5px;
  border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat; background-color: #181818ad;
 left: 65px;
 }
 
 #maintext3{
- position:relative;
+position:absolute;
  font-family: "haxx";
  font-size:20px;
  text-align:center;
  color: white;
    font-weight: 900;
 width:300px;
-float:center;
  align-items:center;
  display:inline-block;
- bottom: 500px;
  padding: 5px;
  border: 1px solid transparent; border-image: url("/data/images/random/ants.gif") 1 repeat; background-color: #181818ad;
-left: -300px;
+margin-top: -300px;
+align-self: left;
+justify-content: left;
 }
 
 @font-face {
@@ -93,14 +93,22 @@ left: -300px;
   src: url("/data/font/dinc.ttf");
 }
 
+#containurself{
+position: relative;
+width: 700px;
+height: 500px;
+display: block;
+}
+
+
 #CAPTCHALOGO{
 float: left;
 display: block;
 align-items: left;
 align-self: left;
 justify-content: left;
-top: 20px;
-right: 670px;
+margin-top: -840px;
+margin-left: 620px;
 position:absolute;
 image-rendering: crisp-edges;
 width: 450px;
