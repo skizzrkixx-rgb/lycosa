@@ -1,13 +1,3 @@
-
-                                                                                                                                                                
-                                                                                                                                                                
-                                                                                                                                                                
-
- 
-
-                                                                                                                                                                
-                                                                                                                                                                
-                                                                                                                                                                
                          AAA                                                                                                                 AA A A A           
                  AAAAAAAAAAAAAAAAAAA            AAA  AA                                                                                A   AAA  A   AA          
                AAAAAAAAAAAAAAAAAAAAAA     AA  AA                   AAAAAAAAAAAAAAAAAAAAA                            AA        A      AAA          AA            
@@ -43,4 +33,6 @@ Welcome to your first shift at CAPTCHA-LABS!
 ============================================
 To get started, here are some things you need to expect:
 
-1. CAPTCHA-LABS is not responsible for cellular and/or molecular damage to your physical form. Any deterioration is purely  
+1. CAPTCHA-LABS is not responsible for cellular and/or molecular damage to your physical form. Any deterioration of your DNA is purely the consequences of working in interdimensional science.
+2. If you spot any visible being NOT wearing the CAPTCHA-LABS Specialized Genetic Oxygen Replicator (or SGOR for short), sound the containment breach alarm.
+3. Frequently view the moniter.
