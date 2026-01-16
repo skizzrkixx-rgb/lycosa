@@ -102,8 +102,24 @@ for (i = 0; i < toggler.length; i++) {
 
 </div>
 
-<img id="CAPTCHALOGO" class="hov1 hsl1" src="/data/images/random/CAPTCHALOGO.png">	
 
+<img id="CAPTCHALOGO" class="hov1 hsl1" src="/data/images/random/CAPTCHALOGO.png">	
+<div class="container">
+<div class="splash">
+  <script>
+
+var splashScreen = document.querySelector('.splash');
+splashScreen.addEventListener('click',()=>{
+  splashScreen.style.opacity = 0;
+  setTimeout(()=>{
+    splashScreen.classList.add('hidden')
+  },610)
+})
+
+</script>
+	<div id = "splash-header"><img src="/data/images/backgrounds/cirologo.gif"></div>
+</div>
+</div>
 </div>
 </div>	
 
